@@ -1,4 +1,5 @@
 import React from 'react'
+import CourseComponents from '../components/CourseComponents'
 
 function Home() {
   return (
@@ -6,6 +7,7 @@ function Home() {
       <h1>
         HOME
       </h1>
+      <CourseComponents/>
     </div>
   )
 }

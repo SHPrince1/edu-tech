@@ -1,9 +1,19 @@
+.sideNavBox{
+    display: "block";
+    width: 300px;
+    padding-left:0;
+    height: 100vh;
+    /* border: 1px solid red; */
+    /* background-color: red; */
+}
 .side{
-    background-color:red !important;
+    /* background-color:#32ca76 !important; */
 }
 .allNav{
     border: 1px solid red;
     line-height: 20px;
-    height: 100vh;
-    background-color: #f7f7fa !important;
+    
+    /* background-color: #32ca76 !important; */
+
+
 }
