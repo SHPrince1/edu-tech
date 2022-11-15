@@ -1,15 +1,15 @@
-import React from 'react'
-import CourseComponents from '../components/CourseComponents'
+import React from "react";
+import CourseComponents from "../components/CourseComponents";
+import styles from "../styles/home.module.css";
 
 function Home() {
   return (
-    <div>
-      <h1>
-        HOME
-      </h1>
-      <CourseComponents/>
+    <div className={styles.parentDiv}>
+      <CourseComponents />
+      <CourseComponents />
+      <CourseComponents />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

@@ -1,0 +1,16 @@
+.parentDiv{
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 425px) {
+  /* Styles */
+  .parentDiv{
+    /* border:1px solid #000; */
+    
+   flex-direction: column;}
+
+}
