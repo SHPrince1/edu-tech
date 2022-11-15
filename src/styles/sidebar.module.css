@@ -4,6 +4,6 @@
 .allNav{
     border: 1px solid red;
     line-height: 20px;
-    height: 100%;
-    background-color: black !important;
+    height: 100vh;
+    background-color: #f7f7fa !important;
 }
