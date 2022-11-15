@@ -1,0 +1,9 @@
+.side{
+    background-color:red !important;
+}
+.allNav{
+    border: 1px solid red;
+    line-height: 20px;
+    height: 100%;
+    background-color: black !important;
+}
