@@ -1,12 +1,16 @@
-import React from 'react'
-import Loginc from '../components/loginc'
+import React from "react";
+import Loginc from "../components/loginc";
+import Footer from "../components/footer";
 
 const Login = () => {
   return (
     <div>
-        <Loginc />
+      <Loginc />
+      <div>
+        {/* <Footer /> */}
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Login
+export default Login;

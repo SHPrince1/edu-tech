@@ -4,11 +4,13 @@ import FileUpload from "../components/fileUpload";
 import StudentDashbord from "../components/student-dashbord";
 import Slider from "../components/slider";
 import style from "../styles/index.module.css";
+import Footer from "../components/footer";
 
 const index = () => {
   return (
     <div>
       <Slider />
+    
       <div className={style.container}>
         {/* <div>
         <h2> AVAILABLE COURSES</h2>
@@ -41,6 +43,7 @@ const index = () => {
          
         </div> */}
       </div>
+      <Footer />
     </div>
   );
 };

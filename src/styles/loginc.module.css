@@ -1,22 +1,26 @@
 .parentDiv{
     /* background-color: blue; */
+    
     height: 300px;
     width: 700px;
-    display:flex;
+    display: flex;
+    margin: 10px 550px;
+
   
     
-    margin: 0 auto;
-    padding: 10px;
+   
 }
 .contentDiv{
     background-color: #26D466;
     display: flex;
-    width: 100%;
+    width: 70%;
     height: 300px;
     padding: 10px;
     border-radius: 20px;
     justify-content: center;
     margin-top: 100px;
+    justify-content: center;
+   
     
 }
 
@@ -35,13 +39,11 @@ form label{
    
 }
 input{
-    width: 500px;
+    width: 400px;
+    border: 1px solid wheat;
     height: 50px;
     border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+   
 }
 .btn{
     margin-top: 20px;

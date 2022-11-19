@@ -8,10 +8,12 @@ const Loginc = () => {
         <div className={style.contentDiv}>
           <form>
             <label>E Mail</label>
-            <input type="email" />
+            <input type="email"
+            placeholder="Enter your Email" />
 
             <label>Password</label>
-            <input type="password" />
+            <input type="password" 
+            placeholder="Enter your password"/>
             <div className={style.btn}>
               
               <a href="/student-login" >LOG IN</a>
