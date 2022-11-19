@@ -1,7 +1,7 @@
 .navContainer{ 
     display:flex;
     justify-content:space-around;
-    background-color:#02202f;
+    background-color:#075c0e;
     color:#fff;
     text-decoration: none;
     
@@ -12,10 +12,10 @@
 }
 .nav a {
     text-decoration: none;
-    color:#8c99a0;
-    font-family: sans-serif;
-    font-weight:bold;
-    font-size: 13px;
+    color:#fff;
+    /* font-family: sans-serif; */
+    /* font-weight:bold; */
+    font-size: 16px;
 }
 .ulItem{
     display:flex;
@@ -44,9 +44,21 @@
 }
 .SIcon{
     justify-content: center;
-    padding: 12px;
+    padding: 22px 0;
     /* background-color: #fff; */
     z-index: 1;
+    display: flex;
+    gap: 15px;
+}
+.SIcon a{
+   text-decoration: none;
+   color: #fff;
+}
+
+.SIconLine{
+    width:2px;
+    height:35px;
+    background-color: aliceblue;
 }
 .buger{
     display:none;
@@ -55,11 +67,16 @@
     text-decoration: none;
     color: #fff;
     z-index: 1;
-    background-color: #02202f;
+    background-color: #075c0e;
     padding: 0 10px;
-   
-   
     
+}
+.subMenu {
+    color: #fff;
+    /* font-family: poppins; */
+    /* font-weight: bold; */
+    font-size: 16px;
+    cursor: pointer;
 }
 .subMenu:hover{
     text-decoration-line: underline;
@@ -69,8 +86,11 @@
 
 .dropdownContent a:hover {
     background-color: #fff;
-    color: #000;
+    color: #075c0e;
     padding: 5px 20px;
+    z-index: 1;
+    overflow: visible;
+    font-size: 12px;
 }
  .dropDown:hover .dropdownContent{
    
@@ -83,11 +103,22 @@
     padding: 10px 10px;
     line-height: 30px;
     justify-content: center;
-    background-color: #02202f;
+    background-color: #075c0e;
+    z-index: 9999;
+    overflow: initial;
     /* color: #fff; */
     transition-delay: .3s;
    
     
+}
+.SecdropDown{
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.SecdropDown li{
+   list-style: none;
 }
 
 

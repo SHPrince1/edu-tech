@@ -3,22 +3,26 @@ import { React, useState } from "react";
 import logo from "./logo.svg";
 
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Home from "./pages/home.js";
-import Profile from "./pages/profile.js";
+import Navbar from "./components/Navbar";
+import Index from "./pages/index";
+import UploadPage from "./pages/uploadpage";
+import Slider from "./components/slider";
+
 import "./App.css";
-import Sidebar from "../src/components/sidebar";
-import Navbar from "./components/topnav";
+import StudentLogin from "./pages/student-login";
+import Login from "./pages/login";
 
 function App() {
   return (
-    <div className="routeDiv">
+    <div>
       <Router>
-        <Sidebar />
+        <Navbar />
 
         <Routes>
-          <Route path="/" exact element={<Home />} />
-          <Route path="/profile" element={<Profile />} />
-              {/* <Route path="/products" element={<Products />} /> */}
+          <Route path="/" exact element={<Index />} />
+          <Route path="/uploadpage" element={<UploadPage />} />
+          <Route path="/student-login" element={<StudentLogin />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </Router>
     </div>

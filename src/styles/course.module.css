@@ -1,64 +1,26 @@
-.sbParentBox{
+
+.parentBox{
     /* background-color: red; */
-   
-}
-
-.FlightrowBox{
-    /* border:1px solid #000; */
+    width: 200px;
+    height: 200px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-left: -2rem;
-
-    gap: 16px;
-}
-.FlightcolBox{
-    /* border:1px solid #000; */
-    width: 15rem;
-    height: 15rem;
-    padding: auto;
-    margin-left: 50px;
-    background-color: #fff;
-    box-shadow: -2px 3px 7px 1px #0095FF;
-
-}
-.titleImage{
-    display: flex;
-    justify-content:space-evenly;
-    padding: 20px;
-}
-.titleImage p{
-    font-size: 15px;
-    width: 110px;
-}
-.price{
-    display: flex;
-    font-size: 30px;
-    font-weight: bold;
-    color: #0043A4;
-    padding: 20px;
-    margin-left: 1rem;
-}
-.textArrow{
-    display: flex;
-    justify-content:space-evenly;
-    padding: 0;
-}
-.textArrow p{
-    color: #707070;
-    font-size: 11px;
-    width: 110px;
-}
-
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 425px) {
-  /* Styles */
-  .FlightcolBox{
-    /* border:1px solid #000; */
+    padding: 10px 20px;
+    box-shadow: 0px 1px 6px 0px #707070;
+    cursor: pointer;
+   
+    /* margin: 10px 100px; */
     
-    border: 1px solid #000;
-    width: 12rem;
-    height: 14rem;
-    margin-left: 80px;}
-
+}
+.title h4, .code h4{
+    font-size: 20px;
+    font-family: poppins;
+    background-color:#f3f3f3;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
