@@ -7,11 +7,11 @@ const Loginc = () => {
       <div className={style.parentDiv}>
         <div className={style.contentDiv}>
           <form>
-            <label>E Mail</label>
+            <label>E MAIL</label>
             <input type="email"
             placeholder="Enter your Email" />
 
-            <label>Password</label>
+            <label>PASSWORD</label>
             <input type="password" 
             placeholder="Enter your password"/>
             <div className={style.btn}>
