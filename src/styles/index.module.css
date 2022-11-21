@@ -10,13 +10,14 @@
     display: flex;
     gap: 10px;
 }
-.regCourse p{
+.regCourse a{
    /* width: 150px; */
    background-color: rgb(36, 226, 36);
    color: white;
    padding: 10px;
    outline-color: white;
    font-family: poppins;
+   text-decoration: none;
 
 
 }
