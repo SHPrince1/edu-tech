@@ -10,7 +10,9 @@ import Slider from "./components/slider";
 
 import "./App.css";
 import StudentLogin from "./pages/student-login";
-import Login from "./pages/login";
+import Login from "./pages/students-login";
+import LecturerLogin from "./pages/lecturer-login";
+import RegisterCoursePage from "./pages/register-course";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
           <Route path="/uploadpage" element={<UploadPage />} />
           <Route path="/student-login" element={<StudentLogin />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/lecturer-login" element={<LecturerLogin />} />
+          <Route path="/register-course" element={<RegisterCoursePage />} />
         </Routes>
       </Router>
     </div>

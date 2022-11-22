@@ -73,9 +73,10 @@ const TopNavbar = () => {
           <div className={NavStyle.dropDown}>
             <li className={NavStyle.subMenu}>LECTURER</li>
             <div className={NavStyle.dropdownContent}>
-              <a href="/" className={NavStyle.dropdownLinks}>
+              <a href="/lecturer-login" className={NavStyle.dropdownLinks}>
                 LOGIN
               </a>
+              
               <a href="/" className={NavStyle.dropdownLinks}>
                 SIGN UP
               </a>

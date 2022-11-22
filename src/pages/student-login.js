@@ -28,9 +28,9 @@ const StudentLogin = () => {
       </div>
       <br />
       <div className={style.regCourse}>
-          <p>
+          <a href='/register-course' >
             Regster New Course
-          </p>
+          </a >
         </div>
 
           
