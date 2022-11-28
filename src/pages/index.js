@@ -16,7 +16,7 @@ const index = () => {
     
       <div className={style.container}>
         {/* <div>
-        <h2> AVAILABLE COURSES</h2>
+        <h2> NO AVAILABLE COURSES</h2>
        
       </div>
       <div className={style.courseBox}>
