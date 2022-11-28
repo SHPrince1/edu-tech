@@ -1,6 +1,6 @@
 import React from 'react'
 import style from "../styles/index.module.css";
-import Courses from "../components/courses";
+// import Courses from "../components/courses";
 
 const StudentLogin = () => {
   return (
