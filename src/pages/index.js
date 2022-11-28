@@ -1,7 +1,7 @@
 import React from "react";
-import Courses from "../components/courses";
-import FileUpload from "../components/fileUpload";
-import StudentDashbord from "../components/student-dashbord";
+// import Courses from "../components/courses";
+// import FileUpload from "../components/fileUpload";
+// import StudentDashbord from "../components/student-dashbord";
 import Slider from "../components/slider";
 import style from "../styles/index.module.css";
 import Footer from "../components/footer";

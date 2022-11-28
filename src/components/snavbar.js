@@ -2,7 +2,7 @@ import { useState } from "react";
 import React from "react";
 import NavStyle from "../styles/navbar.module.css";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { AiOutlineFileSearch } from "react-icons/ai";
+// import { AiOutlineFileSearch } from "react-icons/ai";
 
 const StudentNavbar = () => {
     const  [visible, setVisible] = useState(true);

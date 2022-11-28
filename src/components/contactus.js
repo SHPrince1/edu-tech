@@ -5,8 +5,8 @@ import "../styles/contactus.css";
 import { MdEmail } from "react-icons/md";
 import { FiPhoneCall } from "react-icons/fi";
 import { GoLocation } from "react-icons/go";
-import { FiFacebook, FiYoutube } from "react-icons/fi";
-import { FaInstagram } from "react-icons/fa";
+// import { FiFacebook, FiYoutube } from "react-icons/fi";
+// import { FaInstagram } from "react-icons/fa";
 
 const ContactUs = () => {
   return (
