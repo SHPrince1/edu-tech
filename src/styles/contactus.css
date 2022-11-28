@@ -1,0 +1,97 @@
+h1{
+    font-family: poppins;
+    color: green;
+    font-weight: bold;
+}
+.cardsDiv{
+    /* background-color: hsl(0, 2%, 67%, 0.5); */
+    margin-top: 3rem;
+    padding: 70px 0px 100px 0px ;
+    margin: 0 200px;
+    /* padding: 70px 30px 50px 20px 30px; */
+}
+
+.cardsDiv h1{
+    display: flex;
+    justify-content: center;
+}
+.parentCards{
+    background-color: #fff;
+    height: 416px;
+    /* width: 410px; */
+    height: 430px;
+    box-shadow: -3px -3px 2px -3px #000
+    
+   
+}
+.iconText{
+    /* background-color: red; */
+    width: fit-content;
+    padding: 40px 40px;
+}
+.email{
+    color: green;
+    padding: 10px;
+}
+.cardText{
+    /* background-color: aqua; */
+    /* width: 200px; */
+    display: flex;
+    font-size: 15px;
+    font-family: poppins;
+    margin-top: -2rem;
+   
+}
+.cardBtns{
+    margin-top: 2.5rem ;
+    margin-left: 1.3rem;
+    padding: 10px 40px;
+    border-radius: 15px;
+    border: 2px solid wheat;
+    background-color: green;
+    color: #fff;
+    font-family: poppins;
+
+}
+.cardBtnsF{
+    margin-top: 0.5rem ;
+    margin-left: 1.6rem;
+    padding: 10px 40px;
+    border-radius: 15px;
+    background-color:green;
+    color: #fff;
+    font-family: poppins;
+    border: 2px solid wheat;
+
+}
+
+.followUsCards{
+    background-color: rgb(194, 204, 204);
+    padding: 30px 0px;
+    margin-top: 2rem;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 15px;
+}
+.followus{
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 20px 10px 1px 1px;
+    margin: 3rem 0rem 3rem 0rem;
+}
+.contactContent{
+    padding: 70px;
+}
+.socialMedia{
+    display: flex;
+    gap: 20px;
+    /* padding: 50px; */
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}

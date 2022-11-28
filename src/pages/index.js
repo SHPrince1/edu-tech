@@ -5,6 +5,8 @@ import StudentDashbord from "../components/student-dashbord";
 import Slider from "../components/slider";
 import style from "../styles/index.module.css";
 import Footer from "../components/footer";
+import About from "../components/about";
+import ContactUs from "../components/contactus"
 
 const index = () => {
   return (
@@ -43,6 +45,9 @@ const index = () => {
          
         </div> */}
       </div>
+      <About />
+      <ContactUs />
+      <br />
       <Footer />
     </div>
   );
