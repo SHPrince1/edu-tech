@@ -1,0 +1,117 @@
+.container{
+    /* padding: 10px 200px; */
+}
+.introtext{
+    display: flex;
+    justify-content:center;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+}
+.serRow{
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 0 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.procesBox{
+    /* display: flex; */
+    /* justify-content: center; */
+    background-color: #fff;
+    /* box-shadow: -2px 1px 4px 3px #707070; */
+    padding: 10px 40px;
+    width: 550px;
+    border: 1px solid #e6eef1;
+}
+.procesBox:hover{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* background-color: #fff; */
+    /* box-shadow: -2px 1px 4px 3px #707070; */
+    border: 3px solid #e6eef1;
+    padding: 10px 40px;
+    cursor: pointer;
+  
+}
+.serviceText{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.logTitle{
+    display:flex;
+    /* justify-content: center; */
+    gap: 30px;
+    padding: 10px 40px;
+}
+.logTitle p{
+    padding: 0px;
+}
+.header{
+    font-weight: bold;
+    font-size: 20px;
+    color: #444444;
+}
+.content{
+    width: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px 30px;
+    margin-left: 70px;
+    font-size: 16px;
+    color: #444444;
+}
+.seeMore{
+    padding: 0 50px;
+    margin-left: 45px;
+    text-decoration: none;
+    color: #46c2ca;
+}
+.seeMore a{
+    text-decoration: none;
+}
+
+@media only screen  and (max-width: 425px) {
+
+
+    .serRow{
+        display:flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        padding: 0 15px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .introtext {
+        display: flex;
+        justify-content: center;
+        color: #333333;
+        font-size: 16px;
+        font-weight: bold;
+        margin-left: 1rem;
+        padding: 0 40px;
+    }
+    .procesBox{
+      
+    margin-left: -70px;
+    border: 1px solid #e6eef1;
+    width: 400px;
+    }
+    .content{
+        width: 330px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px 30px;
+    margin-left: 40px;
+    font-size: 16px;
+    color: #444444;
+    }
+    .logTitle{
+        padding: 8px 20px;
+        margin-left: 20px;
+    }
+}

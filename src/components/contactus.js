@@ -12,7 +12,7 @@ const ContactUs = () => {
   return (
     <>
       <div className="cardsDiv">
-        <Container fluid>
+        <Container>
           <Container>
             <Row>
               <Col>
