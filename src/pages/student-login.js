@@ -8,24 +8,12 @@ const StudentLogin = () => {
 
 <div className={style.container}>
         <div>
-        <h2> AVAILABLE COURSES</h2>
+        <h2> NOT AVAILABLE AT THE MOMENT</h2>
        
       </div>
-      <div className={style.courseBox}>
-        <Courses />
-        <Courses />
-        <Courses />
-        <Courses />
-       
-      </div>
+     
      <br />
-      <div className={style.courseBox}>
-        <Courses />
-        <Courses />
-        <Courses />
-        <Courses />
-       
-      </div>
+     
       <br />
       <div className={style.regCourse}>
           <a href='/register-course' >

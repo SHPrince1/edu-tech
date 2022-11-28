@@ -1,0 +1,95 @@
+.parentBox{
+    border: 1px solid yellow;
+    width: 100%;
+    height:250px;
+    padding: 12px;
+    background-color:green;
+    color: white;
+}
+.container{
+    width:100%;
+    /* margin: 0 auto; */
+    display: flex;
+    gap: 0px;
+    padding:0px !important;
+}
+.titleBox{
+    justify-content: center;
+}
+.iconBox, .titleBox{
+    display: flex;
+    justify-content: center;
+    font-size: 12px !important;
+    font-weight:bold;
+}
+.contentBox {
+    display: flex;
+    justify-content: center;
+    /* font-size: 12px !important; */
+    /* font-weight:bold; */
+    padding: 30px;
+
+}
+
+
+/* copied */
+.abtBox{
+    /* display: flex; */
+    padding: 0px 220px;
+}
+.row{
+    display: flex;
+    gap: 40px;
+    /* padding: 10px 200px; */
+    justify-content: center;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.contentText{
+    /* border: 1px solid red; */
+    padding: 30px 20px;
+    line-height: 30px;
+    font-size: 20px;
+    box-shadow: -2px -1px 3px -1px #707070;
+    margin-bottom: 10px;
+}
+.secContent{
+    font-size: 16px;
+}
+.secContent p{
+    padding: 10px 0px;
+}
+.imgs{
+    width: 550px;
+}
+@media only screen  and (max-width: 820px) {
+    .imgs{
+        width: 350px;
+    }
+
+}
+
+
+/* @media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape) {
+ */
+
+@media only screen  and (min-width : 320px)  and (max-width: 425px) {
+    .row{
+        flex-direction: column;
+    }
+    .abtBox{
+        padding: 30px 0;
+    }
+    .imgs{
+        width: 100%;
+        padding:20px;
+    }
+    .secContent{
+        padding: 10px 30px;
+    }
+}

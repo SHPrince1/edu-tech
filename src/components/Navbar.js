@@ -28,7 +28,7 @@ const TopNavbar = () => {
                 ACCESSMENTS
               </li>
               <div className={NavStyle.dropdownContent}>
-                <a className={NavStyle.dropdownLinks} href="/">
+                <a className={NavStyle.dropdownLinks} href="/view-assignment">
                   VIEW ASSIGNMENT
                 </a>
                 <a className={NavStyle.dropdownLinks} href="/uploadpage">

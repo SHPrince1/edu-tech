@@ -16,7 +16,7 @@ const Loginc = () => {
             placeholder="Enter your password"/>
             <div className={style.btn}>
               
-              <a href="/student-login" >LOG IN</a>
+              <a type="submit" href="/student-login" >LOG IN</a>
             </div>
           </form>
         </div>

@@ -13,6 +13,7 @@ import StudentLogin from "./pages/student-login";
 import Login from "./pages/students-login";
 import LecturerLogin from "./pages/lecturer-login";
 import RegisterCoursePage from "./pages/register-course";
+import ViewAssignment from "./pages/view-assignment";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/lecturer-login" element={<LecturerLogin />} />
           <Route path="/register-course" element={<RegisterCoursePage />} />
+          <Route path="/view-assignment" element={<ViewAssignment />} />
         </Routes>
       </Router>
     </div>
