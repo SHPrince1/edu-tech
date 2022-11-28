@@ -5,6 +5,8 @@ import Student1 from "../images/students.webp";
 import Group from "../images/group.webp";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+
+import '../styles/slider.css';
 // import Col from 'react-bootstrap/Col';
 
 function Slider() {
