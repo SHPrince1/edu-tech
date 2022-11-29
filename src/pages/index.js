@@ -19,21 +19,9 @@ const index = () => {
         <h2> NO AVAILABLE COURSES</h2>
        
       </div>
-      <div className={style.courseBox}>
-        <Courses />
-        <Courses />
-        <Courses />
-        <Courses />
-       
-      </div>
+     
      <br />
-      <div className={style.courseBox}>
-        <Courses />
-        <Courses />
-        <Courses />
-        <Courses />
-       
-      </div>
+     
       <br />
       <div className={style.regCourse}>
           <p>
